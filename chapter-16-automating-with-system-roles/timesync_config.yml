@@ -1,0 +1,17 @@
+--- 
+- name: Configure time synchronization on SLES servers  
+  hosts: localhost  
+  become: yes  
+  vars:  
+    timesync_ntp_servers:  
+      # Use a list of NTP servers hostnames or IP addresses 
+      - hostname: 0.suse.pool.ntp.org  
+        iburst: true # Recommended for faster initial sync  
+      - hostname: 1.suse.pool.ntp.org  
+        iburst: true  
+      - hostname: 2.suse.pool.ntp.org  
+        iburst: true  
+    # Optional: Force chrony as the provider 
+    timesync_ntp_provider: chrony 
+  roles: 
+    - name: linux-system-roles.timesync 
