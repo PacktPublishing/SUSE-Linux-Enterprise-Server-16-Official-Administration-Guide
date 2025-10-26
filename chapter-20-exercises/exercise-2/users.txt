@@ -1,6 +1,6 @@
-sonia;x;1010; Sonia;/home/sonia1; /bin/false
-matilde ;x ;1011 ;Mati; /home/mati ;/bin/false
-miguel ;x ;1016 ;Miguel; /home/mig ; /bin/csh
-sergio ;x ;1021 ;Sergio Jones; /home/sjones ; /bin/fish
-pilgrim ;x ;2011 ;Scott Pilgrim; /home/spilgrim ; /bin/fish
-laverne; x ; 2020;LaVerne;/home/LaVerne;/bin/bash
+sonia;x;1010; 1010; Sonia;/home/sonia1; /bin/false
+matilde ;x ;1011;1011 ;Mati; /home/mati ;/bin/false
+miguel ;x ;1016;1016 ;Miguel; /home/mig ; /bin/csh
+sergio ;x ;1021;1021;Sergio Jones; /home/sjones ; /bin/fish
+pilgrim ;x ;2011 ;2011 ;Scott Pilgrim; /home/spilgrim ; /bin/fish
+laverne; x ; 2020;2020;LaVerne;/home/LaVerne;/bin/bash
