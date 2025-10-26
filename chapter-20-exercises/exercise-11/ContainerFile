@@ -20,5 +20,5 @@ RUN pip install --upgrade pip --no-cache-dir && \
 
 USER 10001
 VOLUME /data
-ENTRYPOINT ["/opt/app-root/bin/yq"]
+ENTRYPOINT ["/usr/local/bin/yq"]
 CMD ["-h"]
