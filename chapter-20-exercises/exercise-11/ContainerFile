@@ -4,7 +4,7 @@ WORKDIR /app
 MAINTAINER SLES16 Student <student@suse.test> 
 
 LABEL name="yq image" \
-  maintainer="student _AT_ suse.test" 
+  maintainer="student _AT_ suse.test" \
   vendor="Risu" \
   version="1.0.0" \
   release="1" \
@@ -16,7 +16,7 @@ ENV USER_NAME=risu \
   LC_ALL=en_US.utf8
 
 RUN pip install --upgrade pip --no-cache-dir && \
-    pip3 install --upgrade yq --no-cache-dir
+    pip install --upgrade yq --no-cache-dir
 
 USER 10001
 VOLUME /data
