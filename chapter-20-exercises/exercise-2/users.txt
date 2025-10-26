@@ -1,0 +1,6 @@
+sonia;x;1000;1000; Sonia;/home/user1; /bin/false
+matilde ;x ;1001 ;1001; Mati; /home/john ;/bin/false
+miguel ;x ;1001 ;1001; Miguel; /home/doe ; /bin/csh
+sergio ;x ;1011 ;1011; Sergio Jones; /home/ajones ; /bin/rsh
+pilgrim ;x ;2011 ;2011; Scott Pilgrim; /home/spilgrim ; /bin/rsh
+laverne; x ; 2020;2020; LaVerne;/home/LaVerne;/bin/bash
