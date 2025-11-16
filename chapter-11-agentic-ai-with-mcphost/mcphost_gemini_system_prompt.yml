@@ -1,0 +1,12 @@
+# MCPHost Configuration File 
+ 
+# Application settings 
+model: "google:gemini-2.5-pro"  # Or "google:gemini-2.0-pro" if you want 
+max-steps: 20 
+debug: true 
+
+#System Prompt
+system-prompt: /home/user/system-prompt.txt
+ 
+# API Configuration 
+provider-api-key: "***REMOVED***"
